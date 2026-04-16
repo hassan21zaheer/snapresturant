@@ -35,6 +35,13 @@ html {
     background-color: var(--secondary-color);
 }
 
+/* Adjust base scale for desktop to feel "zoomed out" per user request */
+@media (min-width: 1025px) {
+    html {
+        font-size: 90%;
+    }
+}
+
 body {
     font-family: 'Poppins', sans-serif;
     background-color: var(--secondary-color);
