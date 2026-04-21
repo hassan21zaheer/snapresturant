@@ -1198,6 +1198,7 @@ main#app-root {
     .customizer-details {
         flex: 1;
         overflow-y: auto;
+        overflow-x: hidden;
         padding: 1.25rem;
         max-height: none;
     }
@@ -1215,8 +1216,9 @@ main#app-root {
     }
 
     .modal-footer {
-        width: calc(100% + 2.5rem);
+        width: auto;
         margin-left: -1.25rem;
+        margin-right: -1.25rem;
         position: sticky;
         bottom: -1.25rem;
         padding: 1.25rem;
